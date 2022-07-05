@@ -3,3 +3,13 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.seccion{
+    float: left;
+    position: relative;
+}
+
+.sec-title{
+    position: absolute;
+    position: top right;
+}
