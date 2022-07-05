@@ -23,19 +23,19 @@ h1{
 }
 
 #chick{
-    color: orange;
+    background: orange;
     border: black 1px;
     width: 33%;
 }
 
 #beef{
-    color: green;
+    background: green;
     border: black 1px;
     width: 33%;
 }
 
 #sushi{
-    color: lightcoral;
+    background: lightcoral;
     border: black 1px;
     width: 33%;
 }
