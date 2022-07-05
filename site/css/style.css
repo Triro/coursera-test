@@ -43,7 +43,7 @@
 @media (min-width: 992px){
     .sec-lg{
         width: 31.3333%;
-        margin: 1%;
+        margin: 1% 1% 1% 1%;
     }
 }
 
@@ -53,7 +53,8 @@
         margin: 1%;
     }
     #sec-sushi{
-        width: 99%;
+        width: 98%;
+        margin: 1%;
     }
 }
 
