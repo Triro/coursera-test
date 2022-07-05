@@ -11,15 +11,13 @@ h1{
 
 .seccion{
     float: left;
-    position: relative;
     height: 100px;
     color: gray;
     border: black;
 }
 
 .sec-title{
-    position: absolute;
-    position: top right;
+    float: right;
     font-size: 125%;
 }
 
@@ -42,4 +40,8 @@ h1{
 }
 .content, .seccion{
     margin: 15px;
+}
+
+.content{
+    clear: both;
 }
