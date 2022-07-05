@@ -14,41 +14,46 @@ h1{
     float: left;
     height: 100px;
     background: gray;
-    border: black 1px;
+    border: black;
+    border-width: 1px;
     width: 100%;
+    margin: 25px;
 }
 
 .sec-title{
     float: right;
     font-size: 125%;
     text-align: center;
+    width: 33%;
+    border: black;
+    border-width: 1px;
 }
 
 #chick{
     background: orange;
-    border: black 1px;
-    width: 33%;
 }
 
 #beef{
     background: green;
-    border: black 1px;
-    width: 33%;
 }
 
 #sushi{
     background: lightcoral;
-    border: black 1px;
-    width: 33%;
-}
-.content, .seccion, h1{
-    margin: 25px;
 }
 
 .content{
     clear: both;
+    padding: 15px;
 }
 
 @media(min-width:768px) and (max-witdh:991px) {
-    
+    #chick{
+        width: 50%;
+    }
+    #beef{
+        width: 50%;
+    }
+    #sushi{
+        width: 100%;
+    }
 }
