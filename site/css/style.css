@@ -2,14 +2,44 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 175%;
 }
 
 .seccion{
     float: left;
     position: relative;
+    height: 100px;
+    color: gray;
+    border: black;
 }
 
 .sec-title{
     position: absolute;
     position: top right;
+    font-size: 125%;
+}
+
+#chick{
+    color: orange;
+    border: black;
+    width: 33%;
+}
+
+#beef{
+    color: green;
+    border: black;
+    width: 33%;
+}
+
+#sushi{
+    color: lightcoral;
+    border: black;
+    width: 33%;
+}
+.content, .seccion{
+    margin: 15px;
 }
