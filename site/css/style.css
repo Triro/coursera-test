@@ -12,8 +12,9 @@ h1{
 .seccion{
     float: left;
     height: 100px;
-    color: gray;
-    border: black;
+    background: gray;
+    border: black 1px;
+    width: 100%;
 }
 
 .sec-title{
@@ -23,19 +24,19 @@ h1{
 
 #chick{
     color: orange;
-    border: black;
+    border: black 1px;
     width: 33%;
 }
 
 #beef{
     color: green;
-    border: black;
+    border: black 1px;
     width: 33%;
 }
 
 #sushi{
     color: lightcoral;
-    border: black;
+    border: black 1px;
     width: 33%;
 }
 .content, .seccion{
